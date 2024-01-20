@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -8,7 +9,8 @@ import { IonicModule } from '@ionic/angular';
   declarations: [],
   imports: [
     CommonModule,
-    IonicModule
+    IonicModule,
+    FormsModule
   ]
 })
 export class Modulo1Module { }
